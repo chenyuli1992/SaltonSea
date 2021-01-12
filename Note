@@ -1,2 +1,5 @@
 2020/10/31
 Thresholds: 15 MAD for the catalog
+2021/01/12
+ETAS: run in tohoku, not working with mpiexec -n, perhaps because the mpiexe is from openmpi
+  run in tongariro, after adding mpich path in bashrc could run successfully
