@@ -1,4 +1,8 @@
-I’m using this function from spicy scipy.spatial.cKDTree: https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.html
-From what I understand it’s an unsupervised method to classify neighbors. This page on scikit learn has some explanations about it https://scikit-learn.org/stable/modules/neighbors.html
+I’m using this function from spicy scipy.spatial.cKDTree: 
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.html
+From what I understand it’s an unsupervised method to classify neighbors. 
+This page on scikit learn has some explanations about it https://scikit-learn.org/stable/modules/neighbors.html
 
-You just have to be careful with the leaf-size parameter, because if you request more points than that it will change to the normal way of calculating distances and at least for me it gets a bit slower. But they also say its effective depends on the dataset.
+You just have to be careful with the leaf-size parameter, 
+because if you request more points than that it will change to the normal way of calculating distances and at least for me it gets a bit slower.
+But they also say its effective depends on the dataset.
